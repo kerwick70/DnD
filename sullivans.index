@@ -7,6 +7,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="items.xml" url="https://github.com/kerwick70/DnD/blob/master/items.xml" />		
+		<file name="items.xml" url="https://raw.githubusercontent.com/kerwick70/DnD/master/items.xml" />		
 	</files>
 </index>
