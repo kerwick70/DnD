@@ -3,10 +3,10 @@
 	<info>
 		<name>Sullivans</name>
 		<update version="0.0.5">
-			<file name="sullivans.index" url="https://www.dropbox.com/s/3ts1eeddzgxlnei/sullivans.index" />
+			<file name="sullivans.index" url="https://github.com/kerwick70/DnD/blob/master/sullivans.index" />
 		</update>
 	</info>
 	<files>
-		<file name="items.xml" url="https://www.dropbox.com/s/xyj7ukwg63t5vso/items.xml" />		
+		<file name="items.xml" url="https://github.com/kerwick70/DnD/blob/master/items.xml" />		
 	</files>
 </index>
