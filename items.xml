@@ -5,7 +5,7 @@
 		<description></description>
 		<author>Sullivans</author>
 		<update version="0.0.5">
-			<file name="items.xml" url="https://www.dropbox.com/s/xyj7ukwg63t5vso/items.xml" />
+			<file name="items.xml" url="https://github.com/kerwick70/DnD/blob/master/items.xml" />
 		</update>
 	</info>
 	<element name="Moonsteel Chain Shirt" type="Armor" source="Sullivans Campaign" id="ID_SULLIVANS_MOON_STEEL_CHAIN_SHIRT">
