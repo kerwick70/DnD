@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Items</name>
+		<description></description>
+		<author>Sullivans</author>
+		<update version="0.0.5">
+			<file name="items.xml" url="https://www.dropbox.com/s/xyj7ukwg63t5vso/items.xml" />
+		</update>
+	</info>
+	<element name="Moonsteel Chain Shirt" type="Armor" source="Sullivans Campaign" id="ID_SULLIVANS_MOON_STEEL_CHAIN_SHIRT">
+		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+		<description>
+			<p>Made of interlocking Moonsteel rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer’s upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">5000</set>
+			<set name="weight" lb="10">10 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Light</set>
+			<set name="armorClass">13 + Dex modifier</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="13" />
+		</rules>
+	</element>
+	<element name="Staff of Teleportation" type="Magic Item" source="Sullivans Campaign" id="ID_SULLIVANS_Staff_of_Teleportation">
+		<description>
+			<p>This staff can be wielded as a magic quarterstaff that grants a +1 bonus to attack and damage rolls made with it. While holding it, you have a +1 bonus to spell attack rolls.</p>
+			<p class="indent">The staff has 3 charges for the following properties. It regains 1d3 expended charges weekly.</p>
+			<p class="indent"><strong>Spells.</strong> You can take one minute and expend 1 or more of the staff’s charges to cast one of the following spells from it: <em>teleport circle</em> (1 charge), <em>teleport</em> (3 charges)</p>
+			<p class="indent">Alternatively, the wielder can draw power from spell slots instead of using charges.  <em>teleport circle</em> (5 spell levels), <em>teleport</em> (10 spell levels)</p>
+		</description>
+		<setters>
+			<set name="keywords">sorcerer</set>
+			<set name="category">Staffs</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Quarterstaff</set>
+			<set name="type">Staff</set>
+			<set name="attunement" addition="by a sorcerer, wizard, or warlock">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="charges">3</set>
+		</setters>
+	</element>
+	<element name="Staff of Mielikki" type="Magic Item" source="Sullivans Campaign" id="ID_SULLIVANS_Staff_of_Mielikki">
+		<description>
+			<p>This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.</p>
+			<p class="indent">The staff has 50 charges for the following properties. It regains 2d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff loses its properties and becomes a nonmagical quarterstaff until a ritual to Mielikki is performed.</p>
+			<p class="indent"><strong>Spells.</strong> You can use an action to expend 1 or more of the staff’s charges to cast one of the following spells from it, using your spell save DC: <em>animal friendship</em> (1 charge), <em>barkskin</em> (2 charges), <em>commune with nature</em> (5 charges), <em>guardian of nature</em> (4 charges), <em>lesser restoration</em> (2 charges), <em>locate animals or plants</em> (2 charges), <em>speak with animals</em> (1 charge), <em>cure wounds(lvl 3)</em> (3 charges), or <em>wall of thorns</em> (6 charges).</p>
+			<p class="indent">You can also use an action to cast the <em>pass without trace</em> or  <em>shillelagh</em> spell from the staff without using any charges.</p>
+			<p class="indent"><strong>Tree Form.</strong> You can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius.</p>
+			<p class="indent">The tree appears ordinary but radiates a faint aura of transmutation and a strong aura of evocation magic if targeted by <em>detect magic</em>. While touching the tree and using another action to speak its command word, you return the staff to its normal form. Any creature in the tree falls when it reverts to a staff.  Resting for 8 hours beneath the tree will heal all wounds.</p>
+		</description>
+		<setters>
+			<set name="keywords">druid</set>
+			<set name="category">Staffs</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Quarterstaff</set>
+			<set name="type">Staff</set>
+			<set name="attunement" addition="by a druid">true</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">2</set>
+			<set name="charges">50</set>
+		</setters>
+	</element>
+	<element name="Figurine of Wondrous Power, Black Panther" type="Magic Item" source="Sullivans Campaign" id="ID_SULLIVANS_MAGIC_ITEM_FIGURINE_OF_WONDROUS_POWER_BLACK_PANTHER">
+		<description>
+			<p>This onyx statuette of panther can become a large black panther for up to 4 hours. Once a panther has been summoned, it can't be summoned again until 24 hours have passed.</p>
+			<p>A <em>figurine of wondrous power</em> is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.</p>
+			<p class="indent">The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.</p>
+			<p class="indent">The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
+	<element name="Armor of the Moon Dancer" type="Magic Item" source="Sullivans Campaign" id="ID_SULLIVANS_MAGIC_ITEM_ARMOR_OF_THE_MOON_DANCER">
+		<supports>Armor</supports>
+		<description>
+			<p>This armor is made of moonsteel, the same material used to forge the Crescent Blade that was wielded by Eilistraee's champions. It is light armor and allows for free movement.</p>
+			<p>Wearing this armor grants advantage on all saving throws against all dark beings beholden to Lolth, including her priestesses, champions, and summoned demons. The upon command, the wearer emits an aura that appears like the soft glow of full moonlight and causes all Drow and feinds beholden to Lolth that are within 5 ft of you to have disadvantage on all saving throws. </p>
+			<p>The wearer no longer has light susceptibility and can walk in the daylight without discomfort.</p>
+		</description>
+		<setters>
+			<set name="keywords">Moonsteel, chain, shirt</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="Moonsteel Chain Shirt">Armor</set>
+			<set name="rarity">Legendary</set>
+			<set name="armor">Moonsteel Chain Shirt</set>
+			<set name="enhancement">3</set>
+			<set name="name-format">{{parent}} of the Moon Dancer </set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:enhancement" value="3" bonus="enhancement" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT" />			
+		</rules>
+	</element>
+	<element name="Staff of Mythra" type="Magic Item" source="Sullivans Campaign" id="ID_SULLIVANS_MAGIC_ITEM_STAFF_OF_MYTHRA">
+		<description>
+			<p>This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you gain a +2 bonus to Armor Class, saving throws, and spell attack rolls.</p>
+			<p class="indent">The staff has 20 charges for the following properties. The staff regains 2d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff drains the highest two spell slots remaining from the weilder and regains a number of charges equal to the total levels of the spell slots. On a 20, the staff regains 1d8 + 2 charges.</p>
+			<p class="indent"><strong><em>Power Strike.</em></strong> When you hit with a melee attack using the staff, you can expend 1 charge to deal an extra 1d6 force damage to the target.</p>
+			<p class="indent"><strong><em>Spell Absorption.</em></strong> While holding the staff, you have advantage on saving throws against spells. In addition, you can use your reaction when another creature casts a spell that targets only you. If you do, the staff absorbs the magic of the spell, canceling its effect and gaining a number of charges equal to the absorbed spell’s level. However, if doing so brings the staff’s total number of charges above 20, the staff explodes as if you activated its retributive strike (see below).</p>
+			<p class="indent"><strong><em>Spells.</em></strong> While holding this staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: <em>cone of cold</em> (5 charges), <em>fireball</em> (5th-level version, 5 charges), <em>globe of invulnerability</em> (6 charges), <em>hold monster</em> (5 charges), <em>levitate</em> (2 charges), <em>lightning bolt</em> (5th-level version, 5 charges), <em>magic missile</em> (1 charge), <em>ray of enfeeblement</em> (1 charge), or <em>wall of force</em> (5 charges).</p>
+			<p class="indent"><strong><em>Retributive Strike.</em></strong> You can use an action to break the staff over your knee or against a solid surface, performing a retributive strike. The staff is destroyed and releases its remaining magic in an explosion that expands to fill a 30-foot-radius sphere centered on it.</p>
+			<p class="indent">You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the effect, you take force damage equal to 16 x the number of charges in the staff. Every other creature in the area must make a DC 17 Dexterity saving throw. On a failed save, a creature takes an amount of damage based on how far away it is from the point of origin, as shown in the following table. On a successful save, a creature takes half as much damage.</p>
+			<table>
+				<thead>
+					<tr><td>Distance from Origin</td><td>Damage</td></tr>
+				</thead>
+				<tbody>
+					<tr><td>10 ft. away or closer</td><td>8 x the number of charges in the staff</td></tr>
+					<tr><td>11 to 20 ft. away</td><td>6 x the number of charges in the staff</td></tr>
+					<tr><td>21 to 30 ft. away</td><td>4 x the number of charges in the staff</td></tr>
+				</tbody>
+			</table>
+		</description>
+		<setters>
+			<set name="keywords">sorcerer, warlock, wizard</set>
+			<set name="category">Staffs</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Quarterstaff</set>
+			<set name="type">Staff</set>
+			<set name="attunement" addition="by a sorcerer, warlock, or wizard">true</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">2</set>
+			<set name="charges">20</set>
+		</setters>
+		<rules>
+			<stat name="ac:misc" value="2" />
+			<stat name="strength:save:misc" value="2" />
+			<stat name="dexterity:save:misc" value="2" />
+			<stat name="constitution:save:misc" value="2" />
+			<stat name="intelligence:save:misc" value="2" />
+			<stat name="wisdom:save:misc" value="2" />
+			<stat name="charisma:save:misc" value="2" />
+			<stat name="spellcasting:attack" value="2" />
+		</rules>
+	</element>
+	<element name="Lute of Whispers" type="Magic Item" source="Sullivans Campaign" id="ID_SULLIVANS_MAGIC_ITEM_LUTE_OF_WHISPERS">
+		<description>
+			<p>An instrument of the bards is an exquisite example of it kind, superior to an ordinary instrument in every way. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.</p>
+			<p class="indent">You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.</p>
+			<p class="indent">You can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.</p>
+			<table>
+				<thead>
+					<tr><td>Spells</td></tr>
+				</thead>
+				<tr><td>Fly, invisibility, levitate, protection from evil and good</td></tr>
+				<tr><td>Fear, protection from energy (lightning only), protection from poison</td></tr>
+			</table>
+		</description>
+		<setters>
+			<set name="keywords">bard</set>
+			<set name="category">Musical Instruments</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by a bard">true</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
+	<element name="Heartbow" type="Magic Item" source="Sullivans Campaign" id="ID_SULLIVANS_MAGIC_ITEM_HEARTBOW">
+		<description>
+			<p>When you nock an arrow on this bow, the ruby in the handle glows red and charges the arrow with radiant energy.  If the arrow hits, it explodes doing an additional 1d10 radiant damage, 2d10 to undead.</p>
+			<p class="indent">Against any target that has the Hunter's Mark, all attacks are made with Advantage.</p>
+			<p class="indent">Once per day, the Heartbow can cast the following spells:  Push, Shield, Haste.</p>
+		</description>
+		<setters>
+			<set name="keywords">longbow</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longbow">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
+			<set name="weapon">Longbow</set>
+			<set name="enhancement">3</set>
+		</setters>
+	</element>
+		<element name="Singing Sword" type="Magic Item" source="Sullivans Campaign" id="ID_SULLIVANS_MAGIC_ITEM_SINGING_SWORD">
+		<description>
+			<p>Friendly creatures within 30ft have advantage on all attack rolls for 3 rounds.  Can be used once per day.</p>
+			<p>Can inspire all friendly creatures within 30ft once per day.  Same as Bardic Inspiration at weilder's level</p>
+			<p>May sing Counter Charm once per day.</p>
+			<p>When drawn and commanded, the sword will begin to sing.  Roll on the following list: http://dndspeak.com/2019/06/100-bard-songs/</p>
+		</description>
+		<setters>
+			<set name="keywords">rapier</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="rapier">Weapon</set>
+			<set name="attunement" addition="by a bard">true</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">Rapier</set>
+		</setters>
+	</element>
+</elements>
