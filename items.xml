@@ -4,7 +4,7 @@
 		<name>Items</name>
 		<description></description>
 		<author>Sullivans</author>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="items.xml" url="https://raw.githubusercontent.com/kerwick70/DnD/master/items.xml" />
 		</update>
 	</info>
@@ -211,5 +211,28 @@
 			<set name="enhancement">3</set>
 			<set name="weapon">Rapier</set>
 		</setters>
+	</element>
+	<element name="Cloak of Resistance" type="Magic Item" source="Sullivans Campaign" id="ID_SULLIVANS_MAGIC_ITEM_CLOAK_OF_RESISTANCE">
+		<description>
+			<p>You gain a +2 saving throws while you wear this cloak.</p>
+		</description>
+		<setters>
+			<set name="keywords">cloak, saving throw</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">shoulders</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+		<rules>		
+			<stat name="strength:save:misc" value="2" />
+			<stat name="dexterity:save:misc" value="2" />
+			<stat name="constitution:save:misc" value="2" />
+			<stat name="intelligence:save:misc" value="2" />
+			<stat name="wisdom:save:misc" value="2" />
+			<stat name="charisma:save:misc" value="2" />
+		</rules>
 	</element>
 </elements>
