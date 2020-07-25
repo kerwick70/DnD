@@ -3,7 +3,7 @@
 	<info>
 		<name>Human</name>
 		<description></description>
-		<author url="">Emily Sullivan</author>
+		<author>Emily Sullivan</author>
 		<update version="0.0.4">
 			<file name="race-chao-human.xml" url="https://www.dropbox.com/s/xyj7ukwg63t5vso/race-chao-human.xml" />
 		</update>
