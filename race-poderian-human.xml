@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Human</name>
+		<description></description>
+		<author url="">Emily Sullivan</author>
+		<update version="0.0.4">
+			<file name="race-poderian-human.xml" url="https://www.dropbox.com/s/xyj7ukwg63t5vso/race-poderian-human.xml" />
+		</update>
+	</info>
+
+  <element name="Poderian Human" type="Race Variant" source="Sullivans Campaign" id="ID_SULLIVANS_RACE_VARIANT_PODERIAN_HUMAN">
+    <supports>Human</supports>
+    <description>
+      <p>The people of Poderas are human. Nearly all adults stand over six feet tall, and heights above seven feet are not uncommon. They are massively muscled and have gray skin, ranging from an ashy gray-white to a deeper bluegray. The typical poderian’s hairline points sharply down in the middle of the forehead and at either temple, but recedes elsewhere—sometimes dramatically. poderians are remarkably resistant to the cold of their homeland, baring skin even in near-freezing temperatures without discomfort.</p>
+      <p>poderians value self-reliance, strength, and courage above all else. Anything that is the product of their own labor is a fine thing. Anything else is treated with a healthy dose of skepticism. At best, they are a proud, pragmatic, passionate people, and their loyalty is fierce once earned. At worst, they can be reckless, hot-tempered, and violent—and no small number of poderians still consider these qualities virtues rather than vices.</p>
+      <p>Because of their many exploits as both conquerors and mercenaries, poderians appear in the legends and histories of other peoples across the world. Sometimes these tales are exaggerated—but many that sound exaggerated are not.</p>
+      <p>
+        <span class="feature">Ability Score Increase. </span> Your charisma score increases by 2.<br />
+        <span class="feature">Age. </span>poderians reach adulthood in their late teens and live less than a century. <br />
+        <span class="feature">Size. </span>poderians are taller and heavier than the human norms of other cultures, standing almost universally above 5' 5" feet tall and reaching heights above 6' feet. Your size is Medium.<br />
+        <span class="feature">Speed. </span>Your base walking speed is 30 feet.<br />
+        <span class="feature">Languages. </span>You can speak, read, and write poderian and 1 language of choice.<br />
+        <span class="feature">Tinker.</span>You have proficiency with artisan’s tools (tinker’s tools) . Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.<br />
+      </p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Grants" id="ID_RACE_VARIANT_HUMAN_VARIANT" />
+      <stat name="intelligence" value="2" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
+      <grant type="Language" id="ID_SULLIVANS_LANGUAGE_PODERIAN" />
+	  <select type="Language" name="Language (Human)" supports="Standard||Exotic" requirements="!ID_UA_PS_GRANTS_HUMAN_VARIANT,!ID_WOTC_ERLW_DRAGONMARK_MARK_OF_FINDING"/>
+	  <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES" />
+	  <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS" />
+    </rules>
+  </element>
+
+  <!-- Languages -->
+  <element name="poderian" type="Language" source="Sullivans Campaign" id="ID_SULLIVANS_LANGUAGE_PODERIAN">
+        <description>
+            <p>A language common to the land of Poderas used mostly by the Poderian Humans.</p>
+        </description>
+        <setters>
+            <set name="standard">true</set>
+            <set name="speakers">Humans</set>
+            <set name="script">Humans</set>
+        </setters>
+   </element>
+
+
+
+  
+  
+</elements>

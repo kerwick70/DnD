@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Human</name>
+		<description></description>
+		<author url="">Emily Sullivan</author>
+		<update version="0.0.4">
+			<file name="race-Nayemik-human.xml" url="https://www.dropbox.com/s/xyj7ukwg63t5vso/race-Nayemik-human.xml" />
+		</update>
+	</info>
+
+  <element name="Nayemik Human" type="Race Variant" source="Sullivans Campaign" id="ID_SULLIVANS_RACE_VARIANT_Nayemik_HUMAN">
+    <supports>Human</supports>
+    <description>
+      <p>The people of Nayemik are human. Nearly all adults stand over six feet tall, and heights above seven feet are not uncommon. They are massively muscled and have gray skin, ranging from an ashy gray-white to a deeper bluegray. The typical Nayemik’s hairline points sharply down in the middle of the forehead and at either temple, but recedes elsewhere—sometimes dramatically. Nayemiks are remarkably resistant to the cold of their homeland, baring skin even in near-freezing temperatures without discomfort.</p>
+      <p>Nayemiks value self-reliance, strength, and courage above all else. Anything that is the product of their own labor is a fine thing. Anything else is treated with a healthy dose of skepticism. At best, they are a proud, pragmatic, passionate people, and their loyalty is fierce once earned. At worst, they can be reckless, hot-tempered, and violent—and no small number of Nayemiks still consider these qualities virtues rather than vices.</p>
+      <p>Because of their many exploits as both conquerors and mercenaries, Nayemiks appear in the legends and histories of other peoples across the world. Sometimes these tales are exaggerated—but many that sound exaggerated are not.</p>
+      <p>
+        <span class="feature">Ability Score Increase. </span> Your charisma score increases by 2.<br />
+        <span class="feature">Age. </span>Nayemiks reach adulthood in their late teens and live less than a century. <br />
+        <span class="feature">Size. </span>Nayemiks are taller and heavier than the human norms of other cultures, standing almost universally above 5' 5" feet tall and reaching heights above 6' feet. Your size is Medium.<br />
+        <span class="feature">Speed. </span>Your base walking speed is 30 feet.<br />
+        <span class="feature">Languages. </span>You can speak, read, and write Nayemik and 1 language of choice.<br />
+        <span class="feature">Gift of Survival.</span>You can choose two of the following:  Athletics, Animal Handling, and Survival<br />
+      </p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Grants" id="ID_RACE_VARIANT_HUMAN_VARIANT" />
+      <stat name="strength" value="1" />
+	  <stat name="constitution" value="1" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
+      <grant type="Language" id="ID_SULLIVANS_LANGUAGE_NAYEMIK" />
+	  <select type="Language" name="Language (Human)" supports="Standard||Exotic" requirements="!ID_UA_PS_GRANTS_HUMAN_VARIANT,!ID_WOTC_ERLW_DRAGONMARK_MARK_OF_FINDING"/>
+	  <select type="Proficiency" name="Gift of Survival" supports="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_SURVIVAL" />
+	  <select type="Proficiency" name="Gift of Survival" supports="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_SURVIVAL" />
+    </rules>
+  </element>
+
+  <!-- Languages -->
+  <element name="Nayemik" type="Language" source="Sullivans Campaign" id="ID_SULLIVANS_LANGUAGE_NAYEMIK">
+        <description>
+            <p>A language common to the land of Nayemik used mostly by the Nayemik Humans.</p>
+        </description>
+        <setters>
+            <set name="standard">true</set>
+            <set name="speakers">Humans</set>
+            <set name="script">Humans</set>
+        </setters>
+   </element>
+
+
+
+  
+  
+</elements>

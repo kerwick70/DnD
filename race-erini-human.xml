@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Human</name>
+		<description></description>
+		<author url="">Emily Sullivan</author>
+		<update version="0.0.4">
+			<file name="race-erini-human.xml" url="https://www.dropbox.com/s/xyj7ukwg63t5vso/race-erini-human.xml" />
+		</update>
+	</info>
+
+  <element name="Erini Human" type="Race Variant" source="Sullivans Campaign" id="ID_SULLIVANS_RACE_VARIANT_ERINI_HUMAN">
+    <supports>Human</supports>
+    <description>
+      <p>The people of Erinos are human. Nearly all adults stand over six feet tall, and heights above seven feet are not uncommon. They are massively muscled and have gray skin, ranging from an ashy gray-white to a deeper bluegray. The typical Erini’s hairline points sharply down in the middle of the forehead and at either temple, but recedes elsewhere—sometimes dramatically. Erinis are remarkably resistant to the cold of their homeland, baring skin even in near-freezing temperatures without discomfort.</p>
+      <p>Erinis value self-reliance, strength, and courage above all else. Anything that is the product of their own labor is a fine thing. Anything else is treated with a healthy dose of skepticism. At best, they are a proud, pragmatic, passionate people, and their loyalty is fierce once earned. At worst, they can be reckless, hot-tempered, and violent—and no small number of Erinis still consider these qualities virtues rather than vices.</p>
+      <p>Because of their many exploits as both conquerors and mercenaries, Erinis appear in the legends and histories of other peoples across the world. Sometimes these tales are exaggerated—but many that sound exaggerated are not.</p>
+      <p>
+        <span class="feature">Ability Score Increase. </span> Your charisma score increases by 2.<br />
+        <span class="feature">Age. </span>Erinis reach adulthood in their late teens and live less than a century. <br />
+        <span class="feature">Size. </span>Erinis are taller and heavier than the human norms of other cultures, standing almost universally above 5' 5" feet tall and reaching heights above 6' feet. Your size is Medium.<br />
+        <span class="feature">Speed. </span>Your base walking speed is 30 feet.<br />
+        <span class="feature">Languages. </span>You can speak, read, and write Erini and 1 language of choice.<br />
+        <span class="feature">Musical Instrument. </span>You have proficiency in the musical instrument of your choice.<br />
+      </p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Grants" id="ID_RACE_VARIANT_HUMAN_VARIANT" />
+      <stat name="charisma" value="2" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
+      <grant type="Language" id="ID_SULLIVANS_LANGUAGE_ERINI" />
+	  <select type="Language" name="Language (Human)" supports="Standard||Exotic" requirements="!ID_UA_PS_GRANTS_HUMAN_VARIANT,!ID_WOTC_ERLW_DRAGONMARK_MARK_OF_FINDING"/>
+	  <select type="Proficiency" name="Musical Instrument" supports="Musical Instrument" />
+	  <select type="Proficiency" name="Gift of Gab" supports="ID_PROFICIENCY_SKILL_PERFORMANCE|ID_PROFICIENCY_SKILL_PERSUASION" />
+    </rules>
+  </element>
+
+  <!-- Languages -->
+  <element name="Erini" type="Language" source="Sullivans Campaign" id="ID_SULLIVANS_LANGUAGE_ERINI">
+        <description>
+            <p>A language common to the land of Erinos used mostly by the Erini Humans.</p>
+        </description>
+        <setters>
+            <set name="standard">true</set>
+            <set name="speakers">Humans</set>
+            <set name="script">Humans</set>
+        </setters>
+   </element>
+
+
+
+  
+  
+</elements>

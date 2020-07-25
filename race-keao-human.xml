@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Human</name>
+		<description></description>
+		<author url="">Emily Sullivan</author>
+		<update version="0.0.4">
+			<file name="race-keao-human.xml" url="https://www.dropbox.com/s/xyj7ukwg63t5vso/race-keao-human.xml" />
+		</update>
+	</info>
+
+  <element name="Ke'ao Human" type="Race Variant" source="Sullivans Campaign" id="ID_SULLIVANS_RACE_VARIANT_KEAO_HUMAN">
+    <supports>Human</supports>
+    <description>
+      <p>The people of Ke'ao are human. Nearly all adults stand over six feet tall, and heights above seven feet are not uncommon. They are massively muscled and have gray skin, ranging from an ashy gray-white to a deeper bluegray. The typical Ke'ao’s hairline points sharply down in the middle of the forehead and at either temple, but recedes elsewhere—sometimes dramatically. Ke'aos are remarkably resistant to the cold of their homeland, baring skin even in near-freezing temperatures without discomfort.</p>
+      <p>Ke'aos value self-reliance, strength, and courage above all else. Anything that is the product of their own labor is a fine thing. Anything else is treated with a healthy dose of skepticism. At best, they are a proud, pragmatic, passionate people, and their loyalty is fierce once earned. At worst, they can be reckless, hot-tempered, and violent—and no small number of Ke'aos still consider these qualities virtues rather than vices.</p>
+      <p>Because of their many exploits as both conquerors and mercenaries, Ke'aos appear in the legends and histories of other peoples across the world. Sometimes these tales are exaggerated—but many that sound exaggerated are not.</p>
+      <p>
+        <span class="feature">Ability Score Increase. </span> Your charisma score increases by 2.<br />
+        <span class="feature">Age. </span>Ke'aos reach adulthood in their late teens and live less than a century. <br />
+        <span class="feature">Size. </span>Ke'aos are taller and heavier than the human norms of other cultures, standing almost universally above 5' 5" feet tall and reaching heights above 6' feet. Your size is Medium.<br />
+        <span class="feature">Speed. </span>Your base walking speed is 30 feet.<br />
+        <span class="feature">Languages. </span>You can speak, read, and write Ke'ao and 1 language of choice.<br />
+		<span class="feature">Proficiencies. </span>You can choose two from Religion, Arcana, or History.<br />
+      </p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Grants" id="ID_RACE_VARIANT_HUMAN_VARIANT" />
+      <stat name="wisdom" value="2" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+      <grant type="Language" id="ID_SULLIVANS_LANGUAGE_KEAO" />
+	  <select type="Language" name="Language (Human)" supports="Standard||Exotic" requirements="!ID_UA_PS_GRANTS_HUMAN_VARIANT,!ID_WOTC_ERLW_DRAGONMARK_MARK_OF_FINDING"/>
+	  <select type="Proficiency" name="Gift of Wisdom" supports="ID_PROFICIENCY_SKILL_RELIGION|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY" />
+	  <select type="Proficiency" name="Gift of Wisdom" supports="ID_PROFICIENCY_SKILL_RELIGION|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY" />
+    </rules>
+  </element>
+
+  <!-- Languages -->
+  <element name="Ke'ao" type="Language" source="Sullivans Campaign" id="ID_SULLIVANS_LANGUAGE_KEAO">
+        <description>
+            <p>A language common to the land of Ke'ao used mostly by the Ke'ao Humans.</p>
+        </description>
+        <setters>
+            <set name="standard">true</set>
+            <set name="speakers">Humans</set>
+            <set name="script">Humans</set>
+        </setters>
+   </element>
+
+
+
+  
+  
+</elements>
