@@ -8,10 +8,10 @@
 	</info>
 	<files>
 		<file name="items.xml" url="https://raw.githubusercontent.com/kerwick70/DnD/master/items.xml" />
-		<file name="race-erini-human.xml" url="https://raw.githubusercontent.com/kerwick70/race-erini-human.xml" />
-		<file name="race-poderian-human.xml" url="https://raw.githubusercontent.com/kerwick70/race-poderian-human.xml" />
-		<file name="race-chao-human.xml" url="https://raw.githubusercontent.com/kerwick70/race-chao-human.xml" />
-		<file name="race-keao-human.xml" url="https://raw.githubusercontent.com/kerwick70/race-keao-human.xml" />
-		<file name="race-nayenik-human.xml" url="https://raw.githubusercontent.com/kerwick70/race-nayenik-human.xml" />
+		<file name="race-erini-human.xml" url="https://raw.githubusercontent.com/kerwick70/DnD/master/race-erini-human.xml" />
+		<file name="race-poderian-human.xml" url="https://raw.githubusercontent.com/kerwick70/DnD/master/race-poderian-human.xml" />
+		<file name="race-chao-human.xml" url="https://raw.githubusercontent.com/kerwick70/DnD/master/race-chao-human.xml" />
+		<file name="race-keao-human.xml" url="https://raw.githubusercontent.com/kerwick70/DnD/master/race-keao-human.xml" />
+		<file name="race-nayenik-human.xml" url="https://raw.githubusercontent.com/kerwick70/DnD/master/race-nayenik-human.xml" />
 	</files>
 </index>
