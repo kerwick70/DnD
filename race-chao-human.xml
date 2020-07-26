@@ -4,21 +4,20 @@
 		<name>Human</name>
 		<description></description>
 		<author>Emily Sullivan</author>
-		<update version="0.0.4">
-			<file name="race-chao-human.xml" url="https://www.dropbox.com/s/xyj7ukwg63t5vso/race-chao-human.xml" />
+		<update version="0.0.5">
+			<file name="race-chao-human.xml" url="https://raw.githubusercontent.com/kerwick70/DnD/master/race-chao-human.xml" />
 		</update>
 	</info>
 
   <element name="Chao Human" type="Race Variant" source="Sullivans Campaign" id="ID_SULLIVANS_RACE_VARIANT_CHAO_HUMAN">
     <supports>Human</supports>
     <description>
-      <p>The people of Chao are human. Nearly all adults stand over six feet tall, and heights above seven feet are not uncommon. They are massively muscled and have gray skin, ranging from an ashy gray-white to a deeper bluegray. The typical chao’s hairline points sharply down in the middle of the forehead and at either temple, but recedes elsewhere—sometimes dramatically. chaos are remarkably resistant to the cold of their homeland, baring skin even in near-freezing temperatures without discomfort.</p>
-      <p>chaos value self-reliance, strength, and courage above all else. Anything that is the product of their own labor is a fine thing. Anything else is treated with a healthy dose of skepticism. At best, they are a proud, pragmatic, passionate people, and their loyalty is fierce once earned. At worst, they can be reckless, hot-tempered, and violent—and no small number of chaos still consider these qualities virtues rather than vices.</p>
-      <p>Because of their many exploits as both conquerors and mercenaries, chaos appear in the legends and histories of other peoples across the world. Sometimes these tales are exaggerated—but many that sound exaggerated are not.</p>
-      <p>
+      <p>The people of Chao are human. Nearly all adults stand under six feet tall. They have olive skin with dark hair and brown or purple eyes. The country's climate is warm in the summers and cold in the winters. </p>
+      <p>The people love magic and it is fairly common in the cities. The cities have firework displays, shows, food stalls, and music at least once a week, its commonplace for the locals to wear elaborate clothes and makeup/masks.</p>
+	  <p> They also enjoy many different forms of art. Some laws here are more of a suggestion, so many people find it easier to learn a new "hobby". </p>
         <span class="feature">Ability Score Increase. </span> Your dexterity score increases by 2.<br />
-        <span class="feature">Age. </span>chaos reach adulthood in their late teens and live less than a century. <br />
-        <span class="feature">Size. </span>chaos are taller and heavier than the human norms of other cultures, standing almost universally above 5' 5" feet tall and reaching heights above 6' feet. Your size is Medium.<br />
+        <span class="feature">Age. </span>Chaos reach adulthood in their late teens and live less than a century. <br />
+        <span class="feature">Size. </span>chaos are shorter and leaner than the human norms of other cultures, ranging from 5' to 5'10". Your size is Medium.<br />
         <span class="feature">Speed. </span>Your base walking speed is 30 feet.<br />
         <span class="feature">Languages. </span>You can speak, read, and write Chao and 1 language of choice.<br />
 		<span class="feature">Gift of Art. </span>You are proficient in Thieves Tools, Disguise Kit, or Painter Supplies.<br />
@@ -48,9 +47,4 @@
             <set name="script">Humans</set>
         </setters>
    </element>
-
-
-
-  
-  
 </elements>
