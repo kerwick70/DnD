@@ -14,13 +14,14 @@
     <description>
       <p>The people of Nayemik are human. They are tall and lean with light skin, hair, and blue or grey eyes. They tend to avoid the chaos of the other countries, prefering to lead simpler lives in the North.</p>
       <p>Nayemiks tend to value self-reliance, strength, nature, and their military above all else. The northern country is cold and harsh for the entire year except for one week./p>
-      
+        <p>
         <span class="feature">Ability Score Increase. </span> Your strength and constitution score increases by 1.<br />
         <span class="feature">Age. </span>Nayemiks reach adulthood in their late teens and live less than a century. <br />
         <span class="feature">Size. </span>Nayemiks are tall, standing above 5' 7" feet tall and reaching heights above 6' feet. Your size is Medium.<br />
         <span class="feature">Speed. </span>Your base walking speed is 30 feet.<br />
         <span class="feature">Languages. </span>You can speak, read, and write Nayemik and 1 language of choice.<br />
         <span class="feature">Gift of Survival.</span>You can choose two of the following:  Athletics, Animal Handling, and Survival<br />
+	</p>
     </description>
     <sheet display="false"/>
     <rules>
