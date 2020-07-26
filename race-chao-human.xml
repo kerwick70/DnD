@@ -12,16 +12,18 @@
   <element name="Chao Human" type="Race Variant" source="Sullivans Campaign" id="ID_SULLIVANS_RACE_VARIANT_CHAO_HUMAN">
     <supports>Human</supports>
     <description>
-      <p>The people of Chao are human. Nearly all adults stand under six feet tall. They have olive skin with dark hair and brown or purple eyes. The country's climate is warm in the summers and cold in the winters. </p>
-      <p>The people love magic and it is fairly common in the cities. The cities have firework displays, shows, food stalls, and music at least once a week, its commonplace for the locals to wear elaborate clothes and makeup/masks.</p>
-	  <p> They also enjoy many different forms of art. Some laws here are more of a suggestion, so many people find it easier to learn a new "hobby". </p>
-        <span class="feature">Ability Score Increase. </span> Your dexterity score increases by 2.<br />
+      	<p>The people of Chao are human. Nearly all adults stand under six feet tall. They have olive skin with dark hair and brown or purple eyes. The country's climate is warm in the summers and cold in the winters. </p>
+      	<p>The people love magic and it is fairly common in the cities. The cities have firework displays, shows, food stalls, and music at least once a week, its commonplace for the locals to wear elaborate clothes and makeup/masks.</p>
+	<p> They also enjoy many different forms of art. Some laws here are more of a suggestion, so many people find it easier to learn a new "hobby". </p>
+        <p>
+	<span class="feature">Ability Score Increase. </span> Your dexterity score increases by 2.<br />
         <span class="feature">Age. </span>Chaos reach adulthood in their late teens and live less than a century. <br />
         <span class="feature">Size. </span>chaos are shorter and leaner than the human norms of other cultures, ranging from 5' to 5'10". Your size is Medium.<br />
         <span class="feature">Speed. </span>Your base walking speed is 30 feet.<br />
         <span class="feature">Languages. </span>You can speak, read, and write Chao and 1 language of choice.<br />
-		<span class="feature">Gift of Art. </span>You are proficient in Thieves Tools, Disguise Kit, or Painter Supplies.<br />
-		<span class="feature">Gift of Ink. </span>You are proficient in Forgery Kit or Caligrapher's Supplies.<br />
+	<span class="feature">Gift of Art. </span>You are proficient in Thieves Tools, Disguise Kit, or Painter Supplies.<br />
+	<span class="feature">Gift of Ink. </span>You are proficient in Forgery Kit or Caligrapher's Supplies.<br />
+	</p>
     </description>
     <sheet display="false"/>
     <rules>
