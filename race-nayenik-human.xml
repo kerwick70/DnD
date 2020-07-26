@@ -21,7 +21,6 @@
         <span class="feature">Speed. </span>Your base walking speed is 30 feet.<br />
         <span class="feature">Languages. </span>You can speak, read, and write Nayemik and 1 language of choice.<br />
         <span class="feature">Gift of Survival.</span>You can choose two of the following:  Athletics, Animal Handling, and Survival<br />
-      </p>
     </description>
     <sheet display="false"/>
     <rules>
