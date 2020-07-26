@@ -14,12 +14,14 @@
     <description>
       <p>The people of Ke'ao are human. They are around the same height as the Chao but they are more broad. They have dark, wavy hair with light brown skin, and hazel or green eyes. The people tend to be more religious and value family and community. </p>
       <p>The climate is warm all year. The cities are usually used for schooling and trade and most of the country is made up of self-suffcient communities. </p>
-        <span class="feature">Ability Score Increase. </span> Your wisdom score increases by 2.<br />
+        <p>
+	<span class="feature">Ability Score Increase. </span> Your wisdom score increases by 2.<br />
         <span class="feature">Age. </span>Ke'aos reach adulthood in their late teens and live less than a century. <br />
         <span class="feature">Size. </span>Ke'aos are shorter and broader than the human norms of other cultures, ranging from 5'3" to 6'. Your size is Medium.<br /><br />
         <span class="feature">Speed. </span>Your base walking speed is 30 feet.<br />
         <span class="feature">Languages. </span>You can speak, read, and write Ke'ao and 1 language of choice.<br />
-		<span class="feature">Proficiencies. </span>You can choose two from Religion, Arcana, or History.<br />
+	<span class="feature">Proficiencies. </span>You can choose two from Religion, Arcana, or History.<br />
+	</p>
     </description>
     <sheet display="false"/>
     <rules>
