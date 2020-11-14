@@ -4,7 +4,7 @@
 		<name>Items</name>
 		<description></description>
 		<author>Sullivans</author>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="items.xml" url="https://raw.githubusercontent.com/kerwick70/DnD/master/items.xml" />
 		</update>
 	</info>
@@ -109,7 +109,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT" />			
 		</rules>
 	</element>
-	<element name="Staff of Mythra" type="Magic Item" source="Sullivans Campaign" id="ID_SULLIVANS_MAGIC_ITEM_STAFF_OF_MYTHRA">
+	<element name="Staff of Mystra" type="Magic Item" source="Sullivans Campaign" id="ID_SULLIVANS_MAGIC_ITEM_STAFF_OF_MYSTRA">
 		<description>
 			<p>This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you gain a +2 bonus to Armor Class, saving throws, and spell attack rolls.</p>
 			<p class="indent">The staff has 20 charges for the following properties. The staff regains 2d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff drains the highest two spell slots remaining from the weilder and regains a number of charges equal to the total levels of the spell slots. On a 20, the staff regains 1d8 + 2 charges.</p>
