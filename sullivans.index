@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Sullivans</name>
-		<update version="0.1.0">
+		<update version="0.1.1">
 			<file name="sullivans.index" url="https://raw.githubusercontent.com/kerwick70/DnD/master/sullivans.index" />
 		</update>
 	</info>
