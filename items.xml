@@ -290,4 +290,22 @@
 			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_INTERNAL_DAMAGE_TYPE_SLASHING</set>
 		</setters>
 	</element>
+	<element name="Coin of Vergadain" type="Magic Item" source="Sullivans Campaign" id="ID_SULLIVANS_MAGIC_ITEM_COIN_OF_VERADAIN">
+		<description>
+			<p>This large, gold coin has the face a of laughing dwarf upon one side and the face of a dwarf with finger in front of his lips on the other.</p>
+			<p>The coin grants the bearer the following abilities:</p>
+			<p class="indent">+2 on all deception, insight, and persuasion checks.</p>
+			<p class="indent">Mirror Image 1/day</p>
+			<p class="indent">Shadow Step 1/day: When you are in dim light or darkness, as a bonus action you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. You then have advantage on the first melee attack you make before the end of the turn.</p>
+			<p class="indent">If the bearer breaks a deal or contract, she suffers insomnia and the effects until atoned.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
 </elements>
