@@ -8,6 +8,20 @@
 			<file name="items.xml" url="https://raw.githubusercontent.com/kerwick70/DnD/master/items.xml" />
 		</update>
 	</info>
+	<element name="Sabre" type="Weapon" source="Sullivans Campaign" id="ID_SULLIVANS_SABRE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER</set>
+		</setters>
+	</element>
 	<element name="Moonsteel Chain Shirt" type="Armor" source="Sullivans Campaign" id="ID_SULLIVANS_MOON_STEEL_CHAIN_SHIRT">
 		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
 		<description>
@@ -257,5 +271,23 @@
 			<stat name="charisma:score:set" value="25" bonus="base" />
 			<stat name="intelligence:score:set" value="23" bonus="base" />
 		</rules>
+	</element>
+	<element name="Crescent Blade" type="Magic Item" source="Sullivans Campaign" id="ID_SULLIVANS_CRESCENT_BLADE">
+		<description>
+			<p>You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.</p>
+			<p class="indent">When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn't have or need a head, has legendary actions, or the GM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8 slashing damage from the hit.</p>
+			<p class="indent">The Crescent Blade also creates Moonlight in a 15' radius and can cast Protection from Evil 1/day.</p>
+			<p class="indent">On the blade are the Drow words that translate to "Be your heart filled with light and your cause be true; I shall not fail you."</p>
+		</description>
+		<setters>
+			<set name="keywords">sword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any sword that deals slashing damage">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_INTERNAL_DAMAGE_TYPE_SLASHING</set>
+		</setters>
 	</element>
 </elements>
