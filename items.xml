@@ -4,7 +4,7 @@
 		<name>Items</name>
 		<description></description>
 		<author>Sullivans</author>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="items.xml" url="https://raw.githubusercontent.com/kerwick70/DnD/master/items.xml" />
 		</update>
 	</info>
