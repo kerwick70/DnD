@@ -308,4 +308,60 @@
 			<set name="rarity">Legendary</set>
 		</setters>
 	</element>
+		<element name="Amulet of Mystra" type="Magic Item" source="Sullivans Campaign" id="ID_SULLIVANS_MAGIC_ITEM_AMULET_OF_MYSTRA">
+		<description>
+			<p>This large, mithral amulet has a stream and seven stars imprinted upon it.</p>
+			<p>The amulet grants the bearer the following abilities:</p>
+			<p class="indent">Generate light and warmth at will</p>
+			<p class="indent">Cure Wounds (3d8) 1/day</p>
+			<p class="indent">Silver Fire:  A bolt of pure magical energy rips from the hand of the caster and deals 5d8 points of radiant damage.  1/day</p>
+			<p class="indent">If the bearer holds the Staff of Mystra then they can absorb charges from the staff to power their own spells, 1 charge per level of the spell.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
+	<element name="Dragonslicer" type="Magic Item" source="Sullivans Campaign" id="ID_SULLIVANS_DRAGONSLICER">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. +5 versus dragons.</p>
+			<p class="indent">Damage against the dragon is 3d8 no matter the type of blade.</p>
+			<p class="indent">The sword is intelligent and has its own agenda.</p>
+		</description>
+		<setters>
+			<set name="keywords">sword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any sword that deals slashing damage">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_INTERNAL_DAMAGE_TYPE_SLASHING</set>
+		</setters>
+	</element>
+	<element name="Armor of Leaves" type="Magic Item" source="Sullivans Campaign" id="ID_SULLIVANS_MAGIC_ITEM_ARMOR_OF_LEAVES">
+		<supports>Armor</supports>
+		<description>
+			<p>This armor is made of leaves from the World Tree. It is light armor and allows for free movement.</p>
+			<p>It repairs all damage to itself overnight.</p>
+			<p>Armor class given by the Armor of Leaves is retained in Wild Shape.</p>
+			<p>The druid wearing this armor can now Wild Shape:</p>
+			<p class="indent">as a bonus action instead of a full action.</p>
+			<p class="indent">into beasts with a CR of 1/3 of the level or lower.</p>
+		</description>
+		<setters>
+			<set name="keywords">Leaves,scale</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="scale mail">Armor</set>
+			<set name="rarity">Legendary</set>
+			<set name="armor">Scale Mail</set>
+			<set name="enhancement">3</set>
+		</setters>
+	</element>
 </elements>
